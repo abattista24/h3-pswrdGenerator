@@ -37,27 +37,26 @@ function writePassword() {
         var special = confirm ("would you like a special character in your password?")
        }
 
-       if ((lower) picks += lowerCase
-       || (upper) picks += upperCase || (nun) picks += number|| (special) picks += specialChar)) {
+       if ((lower === true, picks += lowerCase)
+       || (upper === true, picks += upperCase) || (nun === true, picks += number)|| (special === true, picks += specialChar)) {
         for (var i = 0; i < pswLength; i++) {
           genPsw= Math.floor(Math.random() * picks.pswLength);
         
 
-       } else () { 
-         genPsw=math.floor(math.random() * pswLength)
-       }
+      //  } else  { 
+      //    genPsw= Math.floor(Math.random() * pswLength)
+      //  }
   
 
        
-      }
+    
+      passwordText.value = genPsw;
 
-    // }
+    }
   } else {
      alert("Come back later when you need a password, goodbye");
    }
   
-  
- }
 
 // Add event listener to generate button
 // generateBtn.addEventListener("click");
